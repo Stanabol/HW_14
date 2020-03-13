@@ -1,8 +1,15 @@
 .btn {
-    border: 2px solid $color;
-    background-color: white;
-    color: $color;
-    font-size: 24px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #3C3C3C;
+    color: #FFFFFF;
+    border: none;
+
 
     &:hover {
         color: white;

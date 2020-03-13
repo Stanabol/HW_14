@@ -4618,10 +4618,16 @@ html {
   }
 }
 .btn {
-  border: 2px solid #00fff0;
-  background-color: white;
-  color: #00fff0;
-  font-size: 24px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #3C3C3C;
+  color: #FFFFFF;
+  border: none;
 }
 .btn:hover {
   color: white;
