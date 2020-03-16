@@ -4,8 +4,18 @@ extends ../template/layout.pug
 include ../blocks/btn/_btn.pug
 include ../blocks/header/_header.pug
 include ../blocks/about/_about.pug
+include ../blocks/services/_services.pug
+include ../blocks/what/_what.pug
+include ../blocks/example/_example.pug
+include ../blocks/contact/_contact.pug
+include ../blocks/footer/_footer.pug
 block page
     //- type pug code here
     +header
     +about
-    +btn('CONTACT us')
+    +services
+    +what
+    +example
+    +contact
+    +footer
+    

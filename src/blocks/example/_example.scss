@@ -1,0 +1,113 @@
+.example {
+
+    &__topworkz {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 23px;
+        padding-left: 30px;
+        height: 293px;
+        background: url(../img/bgtopworkz.svg);
+        background-size: cover;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 41px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__joint {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 23px;
+        padding-left: 30px;
+        height: 293px;
+        background: url(../img/bgjoint.svg);
+        background-size: cover;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 41px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__market {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 23px;
+        padding-left: 30px;
+        height: 293px;
+        background: url(../img/bgmarket.svg);
+        background-size: cover;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 41px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__worktop {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-top: 10px;
+        padding-bottom: 23px;
+        padding-left: 30px;
+        height: 293px;
+        background: url(../img/bgworktop.svg);
+        background-size: cover;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 41px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__lable {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-top: 10px;
+        padding-bottom: 23px;
+        padding-left: 30px;
+        height: 293px;
+        background: url(../img/bglable.svg);
+        background-size: cover;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 41px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__kyiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-top: 10px;
+        padding-bottom: 23px;
+        padding-left: 30px;
+        height: 293px;
+        background: url(../img/bgkyiv.svg);
+        background-size: cover;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 41px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}

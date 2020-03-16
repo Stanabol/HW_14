@@ -4618,7 +4618,7 @@ html {
   }
 }
 .btn {
-  font-family: Lato;
+  font-family: "Lato";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -4628,6 +4628,8 @@ html {
   background: #3C3C3C;
   color: #FFFFFF;
   border: none;
+  padding: 20px 95px;
+  width: 100%;
 }
 .btn:hover {
   color: white;
@@ -4699,6 +4701,236 @@ html {
   line-height: 19px;
   text-align: center;
   color: #3C3C3C;
+}
+
+.services {
+  background: url(../img/bg2.svg);
+  background-size: cover;
+}
+.services__border {
+  margin-top: 160px;
+  margin-bottom: 160px;
+  padding-bottom: 60px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.services__title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3C3C3C;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.services__text {
+  padding-left: 240px;
+  padding-right: 240px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #3C3C3C;
+  color: #FFFFFF;
+}
+
+.what__border {
+  margin-top: 160px;
+  margin-bottom: 160px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.what__title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3C3C3C;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.what__subtitle {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3C3C3C;
+}
+.what__text {
+  padding-left: 240px;
+  padding-right: 240px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #3C3C3C;
+}
+
+.example__topworkz {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 23px;
+  padding-left: 30px;
+  height: 293px;
+  background: url(../img/bgtopworkz.svg);
+  background-size: cover;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.example__joint {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 23px;
+  padding-left: 30px;
+  height: 293px;
+  background: url(../img/bgjoint.svg);
+  background-size: cover;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.example__market {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 23px;
+  padding-left: 30px;
+  height: 293px;
+  background: url(../img/bgmarket.svg);
+  background-size: cover;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.example__worktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 10px;
+  padding-bottom: 23px;
+  padding-left: 30px;
+  height: 293px;
+  background: url(../img/bgworktop.svg);
+  background-size: cover;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.example__lable {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 10px;
+  padding-bottom: 23px;
+  padding-left: 30px;
+  height: 293px;
+  background: url(../img/bglable.svg);
+  background-size: cover;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.example__kyiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 10px;
+  padding-bottom: 23px;
+  padding-left: 30px;
+  height: 293px;
+  background: url(../img/bgkyiv.svg);
+  background-size: cover;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.contact__border {
+  margin-top: 160px;
+  margin-bottom: 160px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.contact__title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3C3C3C;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.contact__text {
+  padding-left: 240px;
+  padding-right: 240px;
+  padding-bottom: 60px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #3C3C3C;
+}
+
+.footer {
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.footer__img {
+  padding-right: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */
