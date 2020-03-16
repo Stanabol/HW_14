@@ -32,5 +32,20 @@
         line-height: 19px;
         text-align: center;
         color: #3C3C3C;
+
+        @media (max-width: 1199px) {
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        @media (max-width: 991px) {
+           padding-left: 40px;
+           padding-right: 40px;
+        }
+
+        @media (max-width: 767px) {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
     }
 }

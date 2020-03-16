@@ -17,6 +17,19 @@
         text-align: center;
         text-transform: uppercase;
         color: #FFFFFF;
+        padding: 0 655px;
+
+        @media (max-width: 1199px) {
+            padding: 0 355px;
+        }
+
+        @media (max-width: 991px) {
+           padding: 0 200px;
+        }
+
+        @media (max-width: 767px) {
+           padding: 0 100px;
+        }
     }
 
     &__subtitle {
@@ -29,6 +42,20 @@
         text-align: center;
         text-transform: uppercase;
         color: #FFFFFF;
+        padding: 0 655px;
+
+        @media (max-width: 1199px) {
+            padding: 0 200px;
+        }
+
+        @media (max-width: 991px) {
+            padding: 0 100px;
+         }
+ 
+         @media (max-width: 767px) {
+            padding: 0 50px;
+         }
+         
     }   
     &__scrol {
         margin-top: 215px;
