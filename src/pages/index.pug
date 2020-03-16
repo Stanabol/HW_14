@@ -3,7 +3,9 @@ extends ../template/layout.pug
 //- include blocks here
 include ../blocks/btn/_btn.pug
 include ../blocks/header/_header.pug
+include ../blocks/about/_about.pug
 block page
     //- type pug code here
-    
+    +header
+    +about
     +btn('CONTACT us')
